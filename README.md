@@ -57,7 +57,7 @@ Would you like to build/train a model using Keras/Python? And would you like to 
 * `UpSampling1D/2D`, `Resizing`
 * `Reshape`, `Permute`, `RepeatVector`
 * `Embedding`, `CategoryEncoding`
-* `Attention`, `AdditiveAttention`
+* `Attention`, `AdditiveAttention`, `MultiHeadAttention`
 
 
 ### Also supported
@@ -78,7 +78,7 @@ Would you like to build/train a model using Keras/Python? And would you like to 
 `GRUCell`, `Hashing`,
 `IntegerLookup`,
 `LocallyConnected1D`, `LocallyConnected2D`,
-`LSTMCell`, `Masking`, `MultiHeadAttention`,
+`LSTMCell`, `Masking`,
 `RepeatVector`, `RNN`, `SimpleRNN`,
 `SimpleRNNCell`, `StackedRNNCells`, `StringLookup`, `TextVectorization`,
 `ThresholdedReLU`, `Upsampling3D`, `temporal` models
@@ -139,7 +139,7 @@ Requirements and Installation
 
 - A **C++14**-compatible compiler: Compilers from these versions on are fine: GCC 4.9, Clang 3.7 (libc++ 3.7) and Visual C++ 2015
 - Python 3.7 or higher
-- TensorFlow 2.13.0 and Keras 2.13.1 (These are the tested versions, but somewhat older ones might work too.)
+- TensorFlow 2.15.0 (These are the tested versions, but somewhat older ones might work too.)
 
 Guides for different ways to install frugally-deep can be found in [`INSTALL.md`](INSTALL.md).
 
@@ -149,8 +149,8 @@ FAQ
 See [`FAQ.md`](FAQ.md)
 
 Disclaimer
-
 ----------
+
 The API of this library still might change in the future. If you have any suggestions, find errors, or want to give general feedback/criticism, I'd [love to hear from you](issues). Of course, [contributions](pulls) are also very welcome.
 
 License
